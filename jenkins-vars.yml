@@ -27,3 +27,5 @@ repo_vars:
   - CI_DOCKERENV='TZ=US/Pacific'
   - CI_AUTH='user:password'
   - CI_WEBPATH=''
+- name: Deploy Docker Image to Heroku App
+  uses: jctaveras/heroku-deploy@v2.0.0
